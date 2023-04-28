@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/emailtxt"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/passtxt"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="400dp"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="400dp"
+        android:text="Register" />
+</RelativeLayout>
