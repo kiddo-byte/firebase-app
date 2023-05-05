@@ -7,20 +7,54 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/Entertxt"
+        android:id="@+id/carmaketxt"
         android:layout_width="320dp"
         android:layout_height="60dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="200dp"
         android:ems="10"
-        android:hint="Enter data"
+        android:hint="Enter Car make"
         android:inputType="text" />
 
     <Button
-        android:id="@+id/btnentry"
+        android:id="@+id/btnviewcars"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="700dp"
+        android:text="View uploaded vehicles" />
+
+    <EditText
+        android:id="@+id/carmodeltxt"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:ems="10"
+        android:hint="Enter Car model"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btncardata"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="300dp"
-        android:text="SAVE DATA" />
+        android:layout_marginTop="600dp"
+        android:text="Upload car data" />
+
+    <Button
+        android:id="@+id/btncarphoto"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:text="Upload car photo" />
+
+    <EditText
+        android:id="@+id/carpricetxt"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:hint="Enter car price" />
 </RelativeLayout>
